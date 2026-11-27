@@ -1,0 +1,34 @@
+# SistemaUsuarios
+
+Aplicación de escritorio en Java con interfaz gráfica (Swing) desarrollada en Eclipse IDE para la gestión y autenticación de usuarios.
+
+## Características principales
+
+* **Inicio de sesión:** ventana de acceso (`LoginFrame`) para validar usuarios existentes.
+* **Registro de usuarios:** formulario (`RegistroFrame`) para dar de alta nuevos registros.
+* **Ventana principal:** panel (`PrincipalFrame`) tras iniciar sesión en el sistema.
+* **Creación y gestión:** generación de instancias de usuario y administración centralizada de registros.
+
+## Tecnologías utilizadas
+
+* **Lenguaje:** Java (interfaz gráfica con Swing).
+* **Entorno de desarrollo:** Eclipse IDE.
+* **Repositorio:** [Randybd955/SistemaUsuarios](https://github.com/Randybd955/SistemaUsuarios).
+
+## Estructura del proyecto
+
+* `src/main/Main.java`: punto de entrada que arranca la aplicación.
+* `src/modelo/`: clases de dominio (`Persona.java` y `Usuario.java`).
+* `src/patrones/UsuarioFactory.java`: construcción centralizada de objetos de usuario.
+* `src/repositorio/GestorUsuarios.java`: almacenamiento y consulta de usuarios en memoria/colecciones.
+* `src/vista/`: ventanas de interfaz gráfica (`LoginFrame.java`, `RegistroFrame.java` y `PrincipalFrame.java`).
+* `bin/`: clases compiladas generadas por Eclipse.
+
+## Cómo ejecutar el proyecto
+
+1. Clona o descarga el repositorio desde GitHub:
+   ```bash
+   git clone [https://github.com/Randybd955/SistemaUsuarios.git](https://github.com/Randybd955/SistemaUsuarios.git)
+
+   Autor
+Randybd955 — GitHub
